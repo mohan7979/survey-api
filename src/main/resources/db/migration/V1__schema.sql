@@ -1,0 +1,17 @@
+CREATE TABLE EMPLOYEE_SURVEY
+(
+    ID                     INT PRIMARY KEY AUTO_INCREMENT,
+    NAME                   VARCHAR(255),
+    EMP_ID                 VARCHAR(255),
+    DESIGNATION            VARCHAR(255),
+    DEPARTMENT             VARCHAR(255),
+    JOB_SATISFACTION       VARCHAR(255),
+    VALUE_AT_WORK          BOOLEAN,
+    VALUE_AT_WORK_COMMENTS VARCHAR(255),
+    STRESS_ANXIETY         BOOLEAN,
+    STRESS_COMMENTS        VARCHAR(255),
+    WORK_BALANCE           INT,
+    APPRAISAL_RATING       INT,
+    HYBRID_MODEL           INT,
+    COMPANY_POLICY         INT
+);
